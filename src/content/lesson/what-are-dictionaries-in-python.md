@@ -153,7 +153,7 @@ person = {
     "weight": 80
 }
 
-from person["weight"]
+del person["weight"]
 age = person.pop("age")
 
 print(age) # output: 32
